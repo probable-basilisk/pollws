@@ -1,0 +1,14 @@
+[package]
+name = "pollws"
+version = "0.1.0"
+authors = ["Probable Basilisk"]
+
+[dependencies]
+url = "2.1.0"
+
+[dependencies.ws]
+version = "0.9.0"
+
+[lib]
+name = "pollws"
+crate-type = ["dylib"]
