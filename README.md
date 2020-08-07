@@ -1,3 +1,8 @@
+# DEPRECATED
+PollWS is deprecated in favor of PollNet (https://github.com/probable-basilisk/pollnet),
+which provides better functionality (in particular: secure websockets, a websocket server,
+and an HTTP server) with a mostly similar API.
+
 # pollws
 Single DLL, C api, polling-based websocket client. Basically 
 a wrapper to the "ws" Rust library.
